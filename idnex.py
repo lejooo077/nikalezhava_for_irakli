@@ -1,9 +1,4 @@
-'''
-n = 6
 
- result_list = [ i**2 for x in range(0, n+1) ]
-
-'''
 '''
 n = 5 
 result = [1 for x in range(n)]
@@ -11,11 +6,16 @@ result = [1 for x in range(n)]
 
 
 ''' 
-list_nums = [12, 19 , 27 , 89 , 23]
+list_nums = [12, 121 , 27 , 89 , 2]23]
 
 result = [i%3 == 0 for i in list_nums]
 '''
+'''
+n = 6
 
+ result_list = [ i**2 for x in range(0, n+1) ]
+
+'''
 '''
 list_nums = [12, 19 , 27 , 89 , 23]
 
@@ -69,10 +69,10 @@ result = [(i , j)
 
 ite = iter(ls)
 
-print(next(ite)) #გამოიტანა current ელემენტი, ანუ ls[0]
+print(next(ite)) # current 
 print(next(ite))
 print(next(ite))
-print(next(ite)) #ბევრჯერ გამოძახებით გამოაქ შემდეგი ელემენტი'''
+print(next(ite)) # გამოაქვს შემდეგი ელემენტი'''
 
 
 '''
